@@ -8,8 +8,12 @@
 
 // Your code:
 export const drawTriangle = (length = 5) => {
-  
     // ... write code ...
+    let arr = []
+    for(let i = 0; i < length; i++) {
+      arr.push("*")
+      console.log(arr.join(" "))
+    }
 };
 
 // 2#  ========== BONUS =======================
@@ -29,6 +33,17 @@ export const drawTriangle = (length = 5) => {
 // Your code:
 export const drawJavascriptWord = (word = "javascript") => {
   // ... write code ...
+  for(let i = word.length; i >= 0; i--) {
+    let arr = []
+    for(let j = 0; j < word.length; j++) {
+      if(j < i) {
+        arr.push("*")
+      } else {
+        arr.push(word[j])
+      }
+    }
+    console.log(arr.join(" "))
+  }
 };
 
 
@@ -48,5 +63,10 @@ export const drawJavascriptWord = (word = "javascript") => {
 
 // Your code:
 export const getVehiclesAndTopSpeed = (vehicles) => {
-  
+  // ... write code ...
+  let res = []
+  for(let v of vehicles){
+    res.push({name: v.name, topSpeed: Math.max(...v.measuredSpeeds)})
+  }
+  return res;
 };
