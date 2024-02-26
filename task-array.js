@@ -16,9 +16,10 @@ for (let i = 0; i < length; i = i + 1) {
 export const printArray = (numbers) => {
   // Your code:
   //console.log(numbers);
-  for (let i = 0; i < numbers.length; i++) {
+  /*for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i]);
-  }
+  }*/
+  console.log(numbers.join(", "));
 };
 
 // b) Function which will print to console the length of array

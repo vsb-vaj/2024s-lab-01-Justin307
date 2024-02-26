@@ -1,0 +1,20 @@
+{
+  "name": "2024s-lab-01-justin307",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "`",
+  "main": "test.js",
+  "scripts": {
+    "run-test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsb-vaj/2024s-lab-01-Justin307.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsb-vaj/2024s-lab-01-Justin307/issues"
+  },
+  "homepage": "https://github.com/vsb-vaj/2024s-lab-01-Justin307#readme"
+}
